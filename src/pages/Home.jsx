@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import ParticleBackground from "../components/ParticleBackground"
 
 
-import "./styles/homeStyles.css"
+import homeStyles from "./styles/homeStyles.css"
 
 export default function Home() {
 
