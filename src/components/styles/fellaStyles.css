@@ -1,0 +1,19 @@
+.fella-container {
+    display: flex;
+    padding: 13px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.fella-container img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fella-container:hover {
+    background-color: azure;
+    cursor: pointer;
+}

@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+.register-container {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 40px;
+    width: 333px;
+    height: 480px;
+    position: absolute;
+    border: 1.5px black solid;
+    border-radius: 13px;
+    
+}
+
+.register-container label {
+    width: 100%;
+    text-align: left;
+}
+
+.register-container input {
+    padding: 9px;
+    margin:9px;
+    width: 232px;
+    border:none;
+}
+
+.register-container input:focus {
+    background-color: lightgoldenrodyellow;
+}
+
+
+ .register-container h1 {
+    margin-bottom: 42px;
+    
+}
+
+.register-container button {
+    background-color: var(--dark);
+    font-size: 15px;
+    border-radius: 33px;
+    width: 91px;
+    padding: 8px;
+    margin: 5px;
+    color: white;
+    border: none;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.register-container button:hover {
+    width: 120px;
+}
+
+
+#login {
+    margin:5px;
+    cursor: pointer;
+}
+
+#login:hover {
+    text-decoration: underline;
+}
+
+#warning {
+    display:none;
+}

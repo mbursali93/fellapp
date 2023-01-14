@@ -1,0 +1,128 @@
+.private-chat {
+    display: flex;
+    height: 90vh;
+
+}
+
+.friendlist {
+    background-color: var(--text);
+    width: 25vw;
+    overflow-y: scroll;
+    
+    
+}
+
+.friendlist input {
+    border: none;
+    border-bottom: 1px black solid;
+    width: 90%;
+    margin: 0 10px;
+    height: 45px;
+    background-color: transparent;
+}
+
+.chat-container {
+    background-color: whitesmoke;
+    width: 50vw;
+    height: 100%;
+    
+}
+
+.chat-container .messages-container {
+    height: 85%;
+    overflow-y: scroll;
+    border-bottom: 1px solid black;
+}
+
+.messages-container .friend-username {
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+   
+
+}
+
+.messages-container .text-messages {
+    margin-top: 40px;
+}
+
+.start-conversation {
+    height: 50vh;
+    width: 40vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 18vh;
+    left: 29vw;
+}
+
+
+.text-area {
+   height: 15%;
+   display: flex;
+   margin-left: 50px;
+   align-items: center;
+
+   
+}
+
+.text-area input {
+    height: 50%;
+    width: 70%;
+    margin: 5px 5px;
+    background-color: gainsboro;
+    transition: 0.5s;
+    
+    
+}
+
+.text-area input:focus {
+    width: 80%;
+    background-color: whitesmoke;
+}
+
+.text-area button {
+    
+    color: var(--text);
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.text-area .send-button {
+    height: 50%;
+    width: 75px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--dark);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.text-area .send-button:hover  button {
+    translate: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-area  {
+        margin: 0;
+    }
+
+    .chat-container {
+        width: 70vw;
+    }
+
+    .friendlist {
+        min-width: 100px;
+    }
+
+    .start-conversation {
+        left:46vw;
+    }
+}

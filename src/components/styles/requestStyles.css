@@ -1,0 +1,28 @@
+.request .avatar img {
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+.request {
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.request button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    
+}
+
+.request .accept {
+   color:green 
+}
+
+.request .decline {
+    color:red; 
+ }

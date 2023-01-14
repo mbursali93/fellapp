@@ -1,0 +1,18 @@
+.responsive-menu {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .responsive-menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 15px;
+        
+    }
+
+    .responsive-menu a {
+        padding: 4px;
+        border-radius: 8px;
+    }
+}
