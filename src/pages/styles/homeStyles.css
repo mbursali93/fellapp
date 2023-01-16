@@ -4,6 +4,16 @@
 
 .landing {
     position: absolute;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20vh 10vh;
+    background-color: gainsboro;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
     
 }
 
