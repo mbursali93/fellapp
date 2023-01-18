@@ -18,6 +18,7 @@
     "react-particles": "^2.5.3",
     "react-router-dom": "^6.4.4",
     "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.7",
     "socket.io-client": "^4.5.4",
     "swiper": "^8.4.5",
     "timeago.js": "^4.0.2",
